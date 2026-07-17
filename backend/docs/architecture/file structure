@@ -1,0 +1,21 @@
+before phase 2
+
+src/main/java/com/pcbuilderstore/backend
+
+
+├── config
+├── controller
+├── dto
+│   ├── request
+│   └── response
+├── entity
+├── enums
+├── exception
+├── mapper
+├── repository
+├── security
+│   └── jwt
+├── service
+│   └── impl
+├── util
+└── BackendApplication.java

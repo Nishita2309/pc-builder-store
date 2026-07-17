@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  
+  <!-- Case Chassis Outline -->
+  <g transform="translate(130, 40)">
+    <!-- Main Frame -->
+    <rect x="0" y="0" width="140" height="220" rx="8" fill="#1e293b" stroke="#334155" stroke-width="3" />
+    
+    <!-- Tempered Glass Side Panel -->
+    <rect x="5" y="5" width="130" height="210" rx="6" fill="#0f172a" fill-opacity="0.6" stroke="url(#neonGrad)" stroke-width="1.5" />
+    
+    <!-- Interior components hint -->
+    <rect x="15" y="45" width="60" height="60" rx="4" fill="#334155" opacity="0.4" /> <!-- Mobo/CPU -->
+    <rect x="15" y="115" width="100" height="30" rx="4" fill="#475569" opacity="0.5" /> <!-- GPU -->
+    
+    <!-- PSU Shroud -->
+    <rect x="5" y="175" width="130" height="40" rx="2" fill="#0f172a" stroke="#334155" />
+    
+    <!-- Front mesh panel line -->
+    <line x1="135" y1="5" x2="135" y2="215" stroke="#475569" stroke-width="4" />
+    
+    <!-- RGB Fans front hint -->
+    <circle cx="135" cy="50" r="10" fill="none" stroke="#ec4899" stroke-width="1.5" />
+    <circle cx="135" cy="110" r="10" fill="none" stroke="#8b5cf6" stroke-width="1.5" />
+    <circle cx="135" cy="170" r="10" fill="none" stroke="#3b82f6" stroke-width="1.5" />
+  </g>
+</svg>

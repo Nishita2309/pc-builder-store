@@ -1,0 +1,22 @@
+### IDE ###
+.idea/
+.project
+.classpath
+.settings/
+
+### Build ###
+target/
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Environment ###
+.env
+.env.*
+
+### IntelliJ ###
+*.iml

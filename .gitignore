@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules/
+target/
+dist/
+
+# IDE & OS
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs & env
+*.log
+.env
+.env.*
